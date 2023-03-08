@@ -1,7 +1,7 @@
 import turtle
 turtle.setup(800,800)
 turtle.pensize(10)
-turtle.pencolor("gree")
+turtle.pencolor("red")
 turtle.seth(30)
 turtle.fd(300)
 turtle.rt(120)
