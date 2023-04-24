@@ -3,7 +3,7 @@ def getText():
     with open("F:\python-study-2023\week8\hamlet.txt", "r") as f:  # 打开文件
         txt = f.read()  # 读取文件
     #print(txt)
-    # txt = open("F:\python-study-2023\week8\hamlet.txt","rw").read
+    # txt = open("F:\\python-study-2023\\week8\hamlet.txt","rw").read
     txt = txt.lower()
     for ch in '!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~':
         txt = txt.replace(ch," ")
